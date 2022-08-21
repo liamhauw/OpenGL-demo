@@ -43,6 +43,3 @@ cd ./bin
 # 运行结果
 ![](./img/res.png)
 ![](./img/res1.png)
-
-# License
-This code is licensed under the MIT License (see [LICENSE](LICENSE)).
