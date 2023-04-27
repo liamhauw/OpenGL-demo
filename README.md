@@ -20,11 +20,8 @@ The implementation of pbr based on OpenGL
 
 ```zsh
 brew install glfw glew glm
-mkdir build
-cd build
-cmake ..
-make
-cd ..
+cmake -S . -B build
+cmake --build build
 ```
 
 # Run
