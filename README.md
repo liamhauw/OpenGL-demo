@@ -1,14 +1,13 @@
-# 介绍
+# Introducation
 
-基于OpenGL实现了基于物理的渲染
+The implementation of pbr based on OpenGL
 
-# 特点
+# Feature
 
-- 采用了 image-based lighting
-- 使用 imgui 提供用户控制接口
-- 具有多种材质
+- image-based lighting
+- gui based on imgui
 
-# 依赖
+# Dependence
 
 - OpenGL
 - glfw
@@ -17,9 +16,7 @@
 - stb_image
 - imgui
 
-# 环境配置
-
-MacOS，需要提前安装 homebrew，stb_image 及 imgui 已内置。
+# Build
 
 ```zsh
 brew install glfw glew glm
@@ -30,16 +27,13 @@ make
 cd ..
 ```
 
-# 运行
-运行目录为./bin
-
-```
+# Run
+```c++
 cd ./bin
 ./graphics
 ```
+The *option* key can be used to hide or show the mouse, *WASD* can move the camera position when the mouse is hidden, the mouse controls the camera orientation, and UI Settings can be made when the mouse is displayed.
 
-使用option键可以隐藏或显示鼠标，在鼠标隐藏时可以wasd移动相机位置，鼠标控制相机朝向，在鼠标显示时可以进行UI设置。
-
-# 运行结果
+# Result
 ![](./img/res.png)
 ![](./img/res1.png)
