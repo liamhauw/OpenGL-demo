@@ -25,7 +25,7 @@ cmake --build build
 ```
 
 # Run
-```c++
+```zsh
 cd ./bin
 ./graphics
 ```
