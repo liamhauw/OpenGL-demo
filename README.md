@@ -6,6 +6,7 @@ The implementation of pbr based on OpenGL
 
 - image-based lighting
 - gui based on imgui
+- only MacOS
 
 # Dependence
 
