@@ -20,6 +20,7 @@ The implementation of pbr based on OpenGL
 # Build
 
 ```zsh
+git clone https://github.com/liamhauw/opengl-demo.git
 brew install glfw glew glm
 cmake -S . -B build
 cmake --build build
